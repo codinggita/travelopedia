@@ -1,6 +1,8 @@
-# AURA – AI Travel Companion
+# Travelopedia – AI Travel Companion
 
 > Your intelligent, context-aware travel partner for safety, discovery, and seamless journeys.
+
+**Figma Design**: https://www.figma.com/design/4fYUX71AGbIBLB1eZoPCew/Untitled?node-id=318-13&t=VeaJUe0H8SFmklQt-1
 
 ---
 
@@ -19,7 +21,7 @@ These issues create stress, reduce spontaneity, and limit meaningful travel expe
 
 ## Solution
 
-AURA integrates **context-aware intelligence** to transform travel into a secure, enriching, and effortless experience. By combining real-time safety mechanisms, utility services, AI-driven assistance, vision-based translation, and hyper-local discovery, AURA adapts dynamically to the user's location, mode, and needs — acting as a true travel companion.
+Travelopedia integrates **context-aware intelligence** to transform travel into a secure, enriching, and effortless experience. By combining real-time safety mechanisms, utility services, AI-driven assistance, vision-based translation, and hyper-local discovery, Travelopedia adapts dynamically to the user's location, mode, and needs — acting as a true travel companion.
 
 ---
 
@@ -56,7 +58,7 @@ AURA integrates **context-aware intelligence** to transform travel into a secure
 - **User-Generated Hidden Gems**: Community-shared offbeat locations with verification.
 
 ### 🎒 Travel Mode System
-AURA’s interface and intelligence adapt dynamically to three distinct traveler profiles:
+Travelopedia’s interface and intelligence adapt dynamically to three distinct traveler profiles:
 
 | Mode | Priority | UI Adaptation | Recommendation Focus |
 |------|----------|---------------|----------------------|
@@ -130,7 +132,7 @@ Design follows Material 3 principles with adaptive dark/light mode, accessible t
 ## How It Works (User Flow)
 
 1. **Arrival in New City**:  
-   - User opens AURA; app detects location via GPS.  
+   - User opens Travelopedia; app detects location via GPS.  
    - Safety Engine highlights surrounding safe zones and loads utility POIs.  
    - AI Assistant greets with a contextual tip: “Welcome to Barcelona! Tap for today’s hidden gem.”
 
@@ -248,4 +250,4 @@ GitHub: [@rishi919-rgb](https://github.com/rishi919-rgb)
 
 ---
 
-*AURA — Where every journey feels like coming home.*  
+*Travelopedia — Where every journey feels like coming home.*  
