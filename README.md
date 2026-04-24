@@ -1,4 +1,4 @@
-# AURA – AI Travel Companion
+# Travelopedia – AI Travel Companion
 
 > Your intelligent, context-aware travel partner for safety, discovery, and seamless journeys.
 

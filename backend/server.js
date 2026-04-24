@@ -20,7 +20,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/user', require('./routes/user'));
 
 app.get('/', (req, res) => {
-  res.send('AURA API is running...');
+  res.send('Travelopedia API is running...');
 });
 
 const PORT = process.env.PORT || 5000;

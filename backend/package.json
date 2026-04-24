@@ -1,7 +1,7 @@
 {
-  "name": "aura-backend",
+  "name": "travelopedia-backend",
   "version": "1.0.0",
-  "description": "Backend API for AURA AI Travel Companion",
+  "description": "Backend API for Travelopedia AI Travel Companion",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
