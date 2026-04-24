@@ -1,7 +1,10 @@
 import React from 'react';
-import { Search, Menu, User } from 'lucide-react';
+import { Search, Menu, User, Sparkles } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const SearchHeader = () => {
+  const navigate = useNavigate();
+
   return (
     <div style={{
       position: 'absolute',
@@ -27,7 +30,7 @@ const SearchHeader = () => {
         <Search size={20} color="var(--text-muted)" />
         <input 
           type="text" 
-          placeholder="Search destinations, clinics, chargers..." 
+          placeholder="Search destinations, clinics..." 
           style={{
             background: 'none',
             border: 'none',
@@ -39,18 +42,22 @@ const SearchHeader = () => {
             fontWeight: 400
           }}
         />
-        <div style={{
-          width: '32px',
-          height: '32px',
-          borderRadius: '50%',
-          background: 'var(--bg-tertiary)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          cursor: 'pointer'
-        }}>
-          <Menu size={16} color="var(--text-secondary)" />
-        </div>
+        <button 
+          onClick={() => navigate('/assistant')}
+          style={{
+            width: '32px',
+            height: '32px',
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            cursor: 'pointer',
+            border: 'none'
+          }}
+        >
+          <Sparkles size={16} color="white" />
+        </button>
       </div>
       
       <div className="glass" style={{
